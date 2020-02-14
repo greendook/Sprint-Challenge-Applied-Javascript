@@ -30,13 +30,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+the DOM is the document object model it defines the logical structure of documents and the way documents is accessed and manipulated.
+
 2. What is an event?
+
+events are 'things' that happen to the html elements, javascript reacts to these events
 
 3. What is an event listener?
 
+an interface that represents an object that can handle an event dispatched by an event target object
+
 4. Why would we convert a NodeList into an Array?
 
+multiple ways, one way is to use the const nodelist = document.querySelectorAll(‘.divy’)
+const divyArray = Array.from(nodelist) methos
+
 5. What is a component?
+
+a reusable set of logic and interface elements.
 
 ### Git Set up
 
